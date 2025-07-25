@@ -38,3 +38,7 @@ And check out the following files:
   - ./e2e/example.spec.ts - Example end-to-end test
   - ./tests-examples/demo-todo-app.spec.ts - Demo Todo App end-to-end tests
   - ./playwright.config.ts - Playwright Test configuration   
+
+# Run with 1 worker
+npx playwright test --workers=1
+
